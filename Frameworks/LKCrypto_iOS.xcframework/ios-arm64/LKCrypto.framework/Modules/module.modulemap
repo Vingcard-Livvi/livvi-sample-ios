@@ -1,0 +1,7 @@
+framework module LKCrypto {
+    umbrella header "LKCrypto.h"
+    header "LKCryptoMessages.h"
+    header "LKSpeckUtil.h"
+    export *
+    module * { export * }
+}
